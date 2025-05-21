@@ -1,0 +1,42 @@
+### Variables
+@baseUrl = http://localhost:3000
+
+### Mensaje de bienvenida
+GET {{baseUrl}}/
+Accept: application/json
+
+### Obtener todas las series
+GET {{baseUrl}}/shows/all
+Accept: application/json
+
+### Buscar serie por ID válido
+GET {{baseUrl}}/shows/id/3
+Accept: application/json
+
+### Buscar serie por ID inválido (debe dar 400)
+GET {{baseUrl}}/shows/id/abc
+Accept: application/json
+
+### Buscar serie por ID inexistente (debe dar 404)
+GET {{baseUrl}}/shows/id/999
+Accept: application/json
+
+### Buscar series por título parcial
+GET {{baseUrl}}/shows/titulo/mandalorian
+Accept: application/json
+
+### Buscar series por título parcial (sin resultados)
+GET {{baseUrl}}/shows/titulo/xyz123
+Accept: application/json
+
+### Verificar existencia exacta de serie
+GET {{baseUrl}}/shows/existe/The Umbrella Academy
+Accept: application/json
+
+### Verificar existencia exacta de serie (no existe)
+GET {{baseUrl}}/shows/existe/Serie Inexistente
+Accept: application/json
+
+### Ruta no encontrada (debe dar 404)
+GET {{baseUrl}}/ruta/inexistente
+Accept: application/json 
