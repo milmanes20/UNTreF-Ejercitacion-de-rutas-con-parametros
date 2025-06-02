@@ -14,7 +14,7 @@ GET {{baseUrl}}/shows/id/3
 Accept: application/json
 
 ### Buscar serie por ID inválido (debe dar 400)
-GET {{baseUrl}}/shows/id/abc
+GET {{baseUrl}}/shows/id/sjjs5
 Accept: application/json
 
 ### Buscar serie por ID inexistente (debe dar 404)
