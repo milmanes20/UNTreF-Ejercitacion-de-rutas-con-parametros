@@ -1,0 +1,24 @@
+{
+  "name": "untref-ejercitacion-de-rutas-con-parametros",
+  "version": "1.0.0",
+  "description": "Esta práctica te guiará en la creación de un servidor HTTP usando **Express.js**, donde gestionarás un catálogo de series definido en un archivo JSON. Aprenderás a manejar rutas con parámetros y a capturar errores globalmente con `app.use`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milmanes20/UNTreF-Ejercitacion-de-rutas-con-parametros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milmanes20/UNTreF-Ejercitacion-de-rutas-con-parametros/issues"
+  },
+  "homepage": "https://github.com/milmanes20/UNTreF-Ejercitacion-de-rutas-con-parametros#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
+}
